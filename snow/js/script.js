@@ -11,12 +11,13 @@ window.onload = function(){
 	
 	//background
 	var background = new Image();
-	background.src = "http://www.freevector.com/site_media/preview_images/FreeVector-Pinetrees-Landscape.jpg"
+	background.src = "http://www.freevector.com/site_media/preview_images/FreeVector-Pinetrees-Landscape.jpg";
 	
 	//loading background
 	background.onload = function(){
 		ctx.drawImage(background, 100, 100);
-	}
+	};
+  
 	//snowflake particles
 	var mp = 255; //max particles
 	var particles = [];
@@ -27,7 +28,8 @@ window.onload = function(){
 			y: Math.random()*H, //y-coordinate
 			r: Math.random()*8+1, //radius
 			d: Math.random()*mp //density
-		})
+		});
+    
 	}
 	
 	//Lets draw the flakes
@@ -91,6 +93,4 @@ window.onload = function(){
 	
 	//animation loop
 	setInterval(draw, 40);
-}
-
-
+};
