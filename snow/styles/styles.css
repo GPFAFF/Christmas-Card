@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+background: url('../img/christmas.jpg') 100% no-repeat;
+background-size: cover;
+
+}
+h1{
+    color: red;
+	font-weight: bold;
+	font-size: 60px;
+	position: absolute;
+	margin-left: 110px;
+	padding: 30px;
+	font-family: 'Mountains of Christmas', cursive;
+	text-shadow: 3px 3px 3px green;
+	
+}
